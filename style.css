@@ -40,7 +40,7 @@ header nav {
 
 header nav a {
     margin-right: 1.3em;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 header:hover, h1 a {
@@ -102,8 +102,9 @@ p {
     text-align: justify;
     justify-content: center;
     padding-bottom: 2px;
-    width: 70%;
+    width: 80%;
     align-items: center;
+    font-size: 1.5em;
 }
 .github {
     color: white;
@@ -111,6 +112,10 @@ p {
     padding: 10px;
     margin: auto;
     border-radius: 5px;
+}
+.github:hover {
+    color: #1BB7C2;
+
 }
 @media all and (max-width: 1290) {
     body {
