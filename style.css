@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -27,8 +26,9 @@ header {
 }
 
 header h1 {
-    font-size: 2.8;
-    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.8rem;
+    padding: 10px;
     cursor: pointer;
     margin-left: 4%;
 }
@@ -40,7 +40,7 @@ header nav {
 
 header nav a {
     margin-right: 1.3em;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 header:hover, h1 a {
@@ -117,10 +117,50 @@ p {
     color: #1BB7C2;
 
 }
-@media all and (max-width: 1290) {
-    body {
-        width: 1000px;
+@media all and (max-width: 1130px) {
+    header h1 {
+    font-size: 2.2rem;
     }
+    header nav a {
+        margin-right: 1.3em;
+        font-size: 1.5em;
+    }
+    .tres, .dois {
+        padding: 30px 5px;
+    }
+    img {
+        width: 250px;
+        height: 200px;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
 
-    
+@media all and (max-width: 820px) {
+    header h1 {
+        font-size: 1.5rem;
+        }
+    footer span {
+        font-size: 1em;
+
+    }
+    footer a {
+        font-size: 2em;
+        padding: 10px;
+    }
+    .projeto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tres, .dois {
+        width: 100%;
+        padding: 30px 0;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 250px;
+        height: 200px;
+    }
 }
