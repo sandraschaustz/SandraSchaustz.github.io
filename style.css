@@ -122,7 +122,7 @@ p {
     display: block;
     align-content: center;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 1.8em;
     flex-wrap: nowrap;
     color: #106F75;
