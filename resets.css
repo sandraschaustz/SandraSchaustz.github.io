@@ -171,6 +171,20 @@ main figure img:hover {
     align-items: center;
     justify-content: center;
 }
+.final a {
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.8em;
+    flex-wrap: nowrap;
+    color: #106F75;
+    margin: auto;
+}
+
+.final a:hover {
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
+}
 
 @media all and (max-width: 1130px) {
     header h1 {
