@@ -117,7 +117,20 @@ p {
 }
 .github:hover {
     color: #1BB7C2;
+}
+.final a {
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.8em;
+    flex-wrap: nowrap;
+    color: #106F75;
+    margin: auto;
+}
 
+.final a:hover {
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
 }
 @media all and (max-width: 1130px) {
     header h1 {
@@ -164,5 +177,8 @@ p {
     img {
         width: 250px;
         height: 200px;
+    }
+    .final {
+        font-size: 1rem;
     }
 }
