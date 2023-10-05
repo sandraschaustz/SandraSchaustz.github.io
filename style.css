@@ -141,7 +141,7 @@ p {
 
 @media all and (max-width: 820px) {
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         }
     footer span {
         font-size: 1em;

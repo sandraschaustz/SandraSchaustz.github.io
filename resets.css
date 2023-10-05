@@ -185,6 +185,11 @@ main figure img:hover {
     color: #00e0ff;
     transition: 0.2s ease-in-out;
 }
+@media all and (max-width: 2000px) {
+    .seta {
+        display: none;
+    }
+}
 
 @media all and (max-width: 1130px) {
     header h1 {
@@ -243,7 +248,7 @@ main figure img:hover {
 
 @media all and (max-width: 535px) {
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     main .main-content .text p {
@@ -256,6 +261,9 @@ main figure img:hover {
         width: 50px;
         height: 50px;
         padding: 10px;
+    }
+    .final a {
+        font-size: 1.3rem;
     }
 }
 
